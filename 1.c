@@ -12,6 +12,7 @@ exit(1);
 } else if (rc == 0) {
 // child (new process)
 printf("hello, I am child (pid:%d)\n", (int) getpid());
+printf("%d", x);
 // x = 90;
 } else {
 // parent goes down this path (main)
